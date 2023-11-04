@@ -1,3 +1,4 @@
+Write-Output("Starting...")
 Start-PodeServer {
 	Add-PodeEndpoint -Address localhost -Port 8080 -Protocol Http
 	
