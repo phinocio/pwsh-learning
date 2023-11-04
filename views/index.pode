@@ -1,0 +1,10 @@
+<!-- /views/index.pode -->
+<html>
+    <head>
+        <title>Current Date</title>
+    </head>
+    <body>
+        <span>$([DateTime]::Now.ToString('yyyy-MM-dd HH:mm:ss');)</span>
+		<p>Date from Pode using Powershell!</p>
+    </body>
+</html>

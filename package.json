@@ -1,0 +1,14 @@
+{
+  "version": "1.0.0",
+  "author": "phin",
+  "name": "pwsh-learning",
+  "scripts": {
+    "install": "yarn install --force --ignore-scripts --modules-folder pode_modules",
+    "start": "./server.ps1",
+    "build": "psake",
+    "test": "invoke-pester ./tests/*.ps1"
+  },
+  "license": "MIT",
+  "description": "learning",
+  "main": "./server.ps1"
+}
